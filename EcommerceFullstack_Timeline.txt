@@ -1,0 +1,60 @@
+DATABASE DETAILS:
+Host Name/IP Address: localhost
+Port: 3306
+DB Username:markbello.fullstack
+DB Password:markbello
+
+
+ECOMMERCE PROJECT USING REACTJS-FETCH-API-LARAVEL | TIMELINE
+
+
+
+DAY:OCTOBER 10, 2023
+REACT---->
+1. Install Reactjs App
+install ang reactjsproject gamit "npx create-react-app ." //to specifiy if unsa iyang folder
+2. Run it 
+npm run start
+3. Install Bootstrap
+npm install react-bootstrap bootstrap
+link:https://react-bootstrap.netlify.app/ 
+add: import 'bootstrap/dist/css/bootstrap.min.css';
+4. Install React Router
+install ang "npm i react-router-dom" para sa mga routes
+link:https://reactrouter.com/ 
+
+LARAVEL---->
+5.Install Composer
+https://getcomposer.org/
+Composer version 2.2.1 2021-12-22 22:21:31
+6.Install Laravel
+add: composer global require laravel/installer
+type: "laravel" - para e check ang version sa laravel
+Laravel Installer 4.5.1
+7.Install Laravel Framework
+inside the root folder www of laragon 
+type: "laravel new ecommerece-laravel" para maghimog laravel-project
+
+REACTJS - Project Routing
+1. Make Components
+Login.js
+Register.js
+AddProduct.js
+UpdateProduct.js
+Header.js
+2. Make Header
+Header.js add React-bootstrap NavBar
+https://react-bootstrap.netlify.app/docs/components/navbar/
+3. Define Routing
+gamit ug import { Link } from 'react-router-dom'; //import ug link para sa router para e redirect sya
+4. Use Bootstrap NavBar
+5. Make Links
+
+LARAVEL- Make signup API
+1.Make Database and Table
+2.Connect Database with Laravel
+3. Make Controller and Router
+4. Send Data from Postman and Save user!
+5. Test Signup API
+
+DATE OCTOBER 14, 2023
